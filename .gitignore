@@ -1,0 +1,24 @@
+# Binários compilados
+/tcp-scanner
+/goport-scanner
+*.exe
+*.dll
+*.so
+*.dylib
+
+# Saída de testes e cobertura
+*.test
+*.out
+coverage.txt
+
+# Diretórios de dependências (vendoring)
+/vendor/
+
+# Arquivos de editores/IDE
+.idea/
+.vscode/
+*.swp
+
+# Sistema operacional
+.DS_Store
+Thumbs.db
